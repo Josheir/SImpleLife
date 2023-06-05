@@ -1,0 +1,945 @@
+
+
+* {
+  
+  
+}
+
+
+
+.most-outer{
+
+  
+  
+  
+
+}
+
+
+html {
+  font-size: 16px;
+ 
+  max-width: 1000px;
+  
+  min-width: 240px;
+  
+  font-family: sans-serif, Courier, monospace;
+  height: 100%;
+  overflow: scroll;
+  background-color: brown;
+  
+  /*hack*/
+  
+  
+  
+  
+  
+ 
+}
+
+.color {
+  color:black;
+}
+
+body {
+  /*hack*/
+  
+ margin: 0%;
+ padding: 0%;
+ 
+  
+}
+
+nav {
+  font-size: 2rem;
+ 
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: center;
+
+ 
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: blue;
+  
+  font-size: 1.4rem;
+  margin-left: 2rem;
+}
+
+.rowLink{
+  padding-bottom: .1rem;
+  border-bottom-style: solid;
+  border-bottom-width: 1.1px;
+ 
+  
+}
+.center {
+  text-align: center;
+}
+
+.nav2 {
+  display: none;
+}
+
+
+
+
+
+p {
+}
+
+h1 {
+  color: blue;
+}
+
+h4 {
+}
+
+h5 {
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+nav li {
+}
+
+
+
+
+
+header {
+  
+  text-align: center;
+ 
+  margin-left: 0rem;
+  width: 100%;
+  /*HACK*/
+  
+ 
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  
+  padding-top: 0rem;
+  margin-bottom: 5rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 3rem 0px 3rem;
+  
+  
+  
+  width: 100%;
+  
+}
+
+.site-title {
+  font-size: 3rem;
+  padding-top: 2rem;
+}
+
+.sub-title {
+  font-size: 1rem;
+  padding-bottom: 2.6rem;
+  
+  color: blue;
+  letter-spacing: 0.1rem;
+  background-color: yellow;
+  width:100%;
+  
+  padding-left: 0rem;
+  padding-right: 0rem;
+  
+  
+  
+ 
+  
+}
+
+
+
+.entire-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  
+  
+  
+  
+  background-color: rgb(0, 255, 149);
+  
+  
+  
+ 
+}
+
+.main-part-of-page {
+  width: 100%;
+  margin-left:0rem;
+}
+
+
+
+
+.main-part-of-page-title-image-desk {
+  width: 100%;
+  height: 28rem;
+  background-image: url("./images/work.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+  
+
+  
+  
+}
+
+
+
+.main-part-of-page-first-date {
+
+  color: blue;
+
+  font-size: 1.5rem;
+
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+
+
+.top-heading {
+  font-size: 1.2rem;
+  width: 100%;
+  margin-bottom: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+  background-color: green;
+  
+  
+  
+}
+
+.text {
+  font-size: 2rem;
+ margin-bottom: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+a {
+  font-size: 2rem;
+}
+
+
+
+.test {
+  font-size: 3rem;
+}
+
+
+
+.three-articles {
+  
+  width: 100%;
+}
+
+
+.keep-cooking-simple-precursor {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+
+.large-image {
+  border: 1px solid;
+  width: 70%;
+}
+
+.date {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  
+  color: blue;
+}
+
+.article-title {
+  font-size: 2.2rem;
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+
+
+.blue-link {
+  color: blue;
+ 
+  width: 100%;
+  font-size: 1.3rem;
+ 
+}
+
+.center{
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  
+}
+
+.last-center{
+  text-align: center;
+  margin-top: 2rem;
+  
+}
+
+
+.image-and-date {
+  text-align: center;
+  
+}
+
+.images-on-right {
+  width: 100%;
+}
+
+.image-on-right-top {
+  width: 30%;
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 3rem;
+  margin: 0 auto;
+ 
+  
+  
+}
+
+.aside-heading {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+/*on upper right*/
+.large-image-lower {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.aside-text {
+  
+  text-align: center;
+  
+  font-size: 1.8rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  
+ 
+}
+
+.images-on-right-bottom {
+  width: 30%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 3rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+  margin-right: 50rem;
+  margin-left:6rem;
+  background-color: purple;
+
+  
+ 
+  
+}
+
+
+
+.footer {
+  background-color: #add8e6;
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  font-size: 1.4rem;
+  width: 100%;
+  margin-top: 7rem;
+  
+}
+
+
+
+
+
+
+  @media screen and (max-width: 704px) {
+  body {
+
+    
+    
+  }
+
+  html{
+    /*HACK*/
+    
+    
+  }
+
+
+  .title{
+    
+  }
+  .sub-title{
+    
+    
+    padding-top: 1rem;
+    
+    }
+
+  .images-on-right-bottom {
+    width: 40%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+
+  .image-on-right-top {
+    width: 40%;
+    border: 1px solid #000000;
+
+   
+   
+    
+    background-color: rgb(0, 255, 76);
+    
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    
+    
+    
+  }
+
+  .main-part-of-page {
+    width: 100%;
+    margin-left:0rem;
+  }
+
+  .entire-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+
+  
+
+
+  
+  
+
+  .main-part-of-page-first-date{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    
+  }
+
+  .date{
+    font-size: 1.3rem;
+  }
+  
+  .top-heading {
+    font-size: 2.2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: red;
+  }
+
+  .navbar {
+    width: 100%;
+    text-align: center;
+  }
+
+
+  ul a {
+    display: inline-block;
+    
+    margin: 1rem;
+    border: 1px solid black;
+    color:blue;
+    margin-bottom:1rem;
+    padding: 0rem;
+    
+    
+  }
+
+
+  
+
+  .link{
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+  .text {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.2rem;
+   
+    
+  }
+
+  a{
+      color:blue;
+      font-size: 1.2rem;
+  }
+
+
+
+  .site-title {
+    font-size: 3rem;
+  }
+
+  .sub-title {
+    font-size: 1rem;
+  }
+
+  .aside-text {
+    
+    font-size: 1.0rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+ 
+  width: 100%;
+  background-color: white;
+  text-align: center;
+
+  }
+
+  .main-part-of-page-title-image-desk {
+    height: 190px;
+    width: 60%;
+    margin-bottom: 1rem;
+    
+   
+   
+    
+  }
+
+  
+
+  .large-image{
+
+width: 50%;
+  }
+
+
+
+  .aside-heading {
+    
+    font-size: 1.8rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  
+  }
+
+  .article-title {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width:90%;
+    margin: 0 auto;
+
+
+
+  }
+  
+
+
+  
+  
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+    
+  }
+
+  .images-on-right {
+    margin-bottom:2rem;
+    width:100%;
+    
+   
+    
+  }
+
+  .nav2 {
+    
+    
+    margin: 0rem;
+    padding:0rem;
+    background-color: rgb(0, 255, 102);
+    width:100%;
+   
+    
+   
+   
+  }
+
+  .nav2 li {
+    display: inline;
+  }
+
+  .nav2 a {
+    display: inline-block;
+    padding: 2px;
+    font-size: 0.9rem;
+  }
+
+  nav {
+    display: none;
+  }
+  .nav2 {
+    display: block;
+  }
+
+  
+
+  
+
+
+}
+
+
+@media screen and (max-width: 494px) {
+
+.sub-title{
+  font-size: .9rem;
+}
+
+
+
+}
+
+@media screen and (max-width: 464px) {
+
+  .sub-title{
+    font-size: .7rem;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 410px) {
+  
+  
+  .text{
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: violet;
+  
+}
+
+
+.sub-title{
+  text-align: center;
+  background-color: purple;
+  
+ 
+}
+
+
+
+.top-heading{
+  background-color: green;
+  font-size: 2rem;
+}
+
+.title{
+  font-size: 20rem;
+}
+
+
+
+
+
+}
+
+@media screen and (max-width: 405px) {
+
+  .main-part-of-page-title-image-desk {
+    height: 120px;
+    width:60%;
+   
+    
+    text-align: center;
+    margin: au;
+    
+    
+
+    
+  
+    
+    
+    
+  
+   
+   
+   
+
+    
+    
+  }
+
+  
+}
+
+  @media screen and (max-width: 435px) {
+  
+  .top-heading{
+  
+  margin-left: 0%;
+  width:90%;
+  background-color: rgb(0, 255, 85);
+
+  }
+}
+
+@media screen and (max-width: 494px) {
+
+  .main-part-of-page-title-image-desk {
+    
+  }
+}
+
+
+
+@media print {
+  .images-on-right {
+    display: none;
+  }
+
+  .main-part-of-page-title-image-desk {
+    display: none;
+  }
+
+  .large-image {
+    display: none;
+  }
+
+  
+
+  .date {
+    display: none;
+    margin-bottom: 0rem;
+  }
+  .blue-link {
+    display: none;
+  }
+  .main-part-of-page-first-date {
+    margin-bottom: 0rem;
+    
+    padding-top: 10rem;
+    
+  }
+  
+  .top-heading {
+    padding-top: 1rem;
+  }
+
+  .sub-title {
+    font-size: 2rem;
+    font-weight: 500;
+    position: absolute;
+    left: -23px;
+    top: 64px;
+  }
+  .site-title {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+
+    font-size: 3.6rem;
+  }
+
+  .text{
+    font-size: 3rem;
+  }
+
+  .main-part-of-page {
+    
+    margin-left:0rem;
+    width: 100%;
+  }
+  .entire-section{
+    margin-left: 10%;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 390px) {
+
+.gap{
+  
+}
+}
+
+@media screen and (max-width: 379px) {
+
+  .top-heading{
+
+    margin:5rem;
+    text-align: center;
+    background-color: green;
+    
+  }
+
+}
+
+
+
+@media screen and (max-width: 264px) {
+
+  .top-heading{
+    margin-right: 10%;
+    margin-left: 10%;
+    width:100%;
+    
+    background-color: violet;
+    margin: 0 auto;
+    
+  }
+
+}
+
+@media screen and (max-width: 377px) {
+
+  
+
+
+  
+
+  .nav2 a {
+    
+    padding: 2px;
+    font-size: 0.9rem;
+  }
+
+  
+
+  
+  .top-heading{
+    margin-right: 0rem;
+    margin-left: 0rem;
+    padding:0rem;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+    
+  }
+
+  .text{
+    background-color: yellowgreen;
+  }
+  }
+  
+
+  @media screen and (max-width: 343px) {
+
+    .nav2 {
+      padding-left: 8rem;
+      padding-right: 8rem;
+      width: 70%;
+      background-color: rgb(64, 255, 0);
+    }
+  }
+
+  @media screen and (max-width: 401px) {
+
+html{
+
+  /*HACK*/
+  
+  
+  
+}
+.sub-title{
+ 
+  border-color: purple;
+  
+  margin: auto;
+  
+  width:100%;
+
+  text-align: center;
+  
+  
+  
+  
+  
+  
+}
+
+
+
+.top-heading{
+  background-color: green;
+  font-size: 2rem;
+  
+  margin: auto;
+  text-align: center;
+  width:100%;
+}
+
+.site-title {
+  font-size: 1rem;
+  
+}
+
+  }
